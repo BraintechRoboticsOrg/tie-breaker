@@ -21,25 +21,9 @@
 --------------------------------------------------------------
 [INFO] Starting Gold Auto-Heal Protocol
 Base: /home/pmonize/AIQ_POURS/tie-breaker
-Timestamp: 2025-10-19 19:22:45
+Timestamp: 2025-10-19 19:27:05
 --------------------------------------------------------------
 [🔐] Permissions normalized for scripts
 [🩹] Restoring missing /home/pmonize/AIQ_POURS/tie-breaker/src/loader/pour_loader.sh from template
 [🛰️] Checking for upstream updates...
 [⚠️] Git pull skipped (no remote)
---------------------------------------------------------------
-[🛰️] Triggering Phase 3 – GitHub Self-Patch Manifest...
---------------------------------------------------------------
-[INFO] Launching GitHub Self-Patch Manifest
-Base: /home/pmonize/AIQ_POURS/tie-breaker
-Timestamp: 2025-10-19 19:22:45
---------------------------------------------------------------
-[🛰️] Pushing self-patch to remote...
-[⚠️] Git push skipped (no remote)
-[📬] Creating GitHub issue...
-[⚠️] GitHub issue creation skipped
---------------------------------------------------------------
-[✅] GitHub Self-Patch Manifest completed.
-[✅] Auto-Heal completed successfully.
---------------------------------------------------------------
-[FAIL] Gold Audit FAILED – Review /home/pmonize/AIQ_POURS/tie-breaker/logs/gold_audit_20251019_192245.log for details.
