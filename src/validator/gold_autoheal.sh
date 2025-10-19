@@ -51,4 +51,8 @@ else
 fi
 
 echo "--------------------------------------------------------------" | tee -a "$LOG"
+echo "[🛰️] Triggering Phase 3 – GitHub Self-Patch Manifest..." | tee -a "$LOG"; 
+SELF="$BASE/src/validator/gold_selfpatch.sh"; 
+if [ -x "$SELF" ]; then bash "$SELF" | tee -a "$LOG"; 
+else echo "[⚠️] Self-Patch module missing ($SELF)" | tee -a "$LOG"; fi;
 echo "[✅] Auto-Heal completed successfully." | tee -a "$LOG"
