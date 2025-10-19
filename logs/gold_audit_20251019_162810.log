@@ -1,0 +1,18 @@
+--------------------------------------------------------------
+[✅] Found: docs
+[✅] Found: src
+[✅] Found: tests
+[✅] Found: src/loader
+[✅] Found: src/validator
+[✅] Found: src/telemetry
+[✅] Found: src/metrics
+[✅] File exists: src/loader/pour_loader.sh
+[✅] File exists: tests/test_local_pour.sh
+--------------------------------------------------------------
+[🔐] Normalized script permissions
+[✅] Syntax OK → src/validator/gold_audit.sh
+[✅] Syntax OK → src/validator/gold_validator.sh
+[✅] Syntax OK → src/loader/pour_loader.sh
+[✅] Syntax OK → src/loader/gold_autorun.sh
+--------------------------------------------------------------
+[OK] Gold Audit PASSED – All checks verified.
