@@ -21,7 +21,6 @@
 [OK] Gold Audit PASSED – All checks verified.
 [main afb50fa] sentinel: 2025-10-19 status ✅ PASS
 [INFO] Gold Sentinel completed → ✅ PASS
-[OK] Gold Audit PASSED – All checks verified.
 ```
 
 ## Archive Notes
