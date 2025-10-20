@@ -1,0 +1,26 @@
+--------------------------------------------------------------
+[GUARD] Gold Mesh Guard start @ Sun 19 Oct 2025 09:37:22 PM EDT
+Local:  /home/pmonize/AIQ_POURS/tie-breaker
+Remote: pmonize@motherbox:/home/pmonize/tie-breaker
+--------------------------------------------------------------
+[STEP] Request remote manifest (no writes)
+[REMOTE] Manifest path: /home/pmonize/tie-breaker/logs/manifest_remote_20251019_213722.txt
+[STEP] Generate local manifest
+/home/pmonize/AIQ_POURS/tie-breaker/logs/manifest_local_20251019_213722.txt
+[LOCAL] Manifest path: /home/pmonize/AIQ_POURS/tie-breaker/logs/manifest_local_20251019_213722.txt
+[STEP] Diff manifests
+diff: /home/pmonize/AIQ_POURS/tie-breaker/logs/manifest_remote_20251019_213722.txt: No such file or directory
+[GUARD] Drift detected ⚠️
+Differences logged at: /home/pmonize/AIQ_POURS/tie-breaker/logs/manifest_diff_20251019_213722.patch
+[ACTION] Pushing local → remote
+sending incremental file list
+./
+src/mesh/
+src/mesh/gold_mesh_guard.sh
+src/mesh/gold_mesh_remote.sh
+
+sent 2,341 bytes  received 88 bytes  4,858.00 bytes/sec
+total size is 21,722  speedup is 8.94
+[STEP] Re-manifest both sides
+/home/pmonize/tie-breaker/logs/manifest_remote_post_20251019_213722.txt
+/home/pmonize/AIQ_POURS/tie-breaker/logs/manifest_local_post_20251019_213722.txt
