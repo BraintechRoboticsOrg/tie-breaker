@@ -1,0 +1,30 @@
+--------------------------------------------------------------
+[INFO] Gold Sentinel Launch @ Sun 19 Oct 2025 08:07:53 PM EDT
+Target: /home/pmonize/AIQ_POURS/tie-breaker
+--------------------------------------------------------------
+--------------------------------------------------------------
+[INFO] Running Gold Audit
+Target: /home/pmonize/AIQ_POURS/tie-breaker
+Timestamp: 2025-10-19 20:07:53
+Log: /home/pmonize/AIQ_POURS/tie-breaker/logs/gold_audit_20251019_200753.log
+--------------------------------------------------------------
+[✅] Found: docs
+[✅] Found: src
+[✅] Found: tests
+[✅] Found: src/loader
+[✅] Found: src/validator
+[✅] Found: src/telemetry
+[✅] Found: src/metrics
+[✅] File exists: src/loader/pour_loader.sh
+[✅] File exists: tests/test_local_pour.sh
+--------------------------------------------------------------
+[🔐] Normalized script permissions
+[✅] Syntax OK → src/validator/gold_selfpatch.sh
+[✅] Syntax OK → src/validator/gold_audit.sh
+[✅] Syntax OK → src/validator/gold_sentinel.sh
+[✅] Syntax OK → src/validator/gold_autoheal.sh
+[✅] Syntax OK → src/validator/gold_validator.sh
+[✅] Syntax OK → src/loader/pour_loader.sh
+[✅] Syntax OK → src/loader/gold_autorun.sh
+--------------------------------------------------------------
+[OK] Gold Audit PASSED – All checks verified.
