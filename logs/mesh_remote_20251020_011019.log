@@ -1,12 +1,12 @@
 --------------------------------------------------------------
-[INFO] Gold Sentinel Launch @ Sun 19 Oct 2025 08:11:34 PM EDT
-Target: /home/pmonize/AIQ_POURS/tie-breaker
+[REMOTE] Gold Mesh Remote start @ Mon Oct 20 01:10:19 AM UTC 2025
+Base: /home/pmonize/tie-breaker
 --------------------------------------------------------------
 --------------------------------------------------------------
 [INFO] Running Gold Audit
-Target: /home/pmonize/AIQ_POURS/tie-breaker
-Timestamp: 2025-10-19 20:11:34
-Log: /home/pmonize/AIQ_POURS/tie-breaker/logs/gold_audit_20251019_201134.log
+Target: /home/pmonize/tie-breaker
+Timestamp: 2025-10-20 01:10:19
+Log: /home/pmonize/tie-breaker/logs/gold_audit_20251020_011019.log
 --------------------------------------------------------------
 [✅] Found: docs
 [✅] Found: src
@@ -20,24 +20,16 @@ Log: /home/pmonize/AIQ_POURS/tie-breaker/logs/gold_audit_20251019_201134.log
 --------------------------------------------------------------
 [🔐] Normalized script permissions
 [✅] Syntax OK → src/validator/gold_selfpatch.sh
-[✅] Syntax OK → src/validator/gold_audit.sh
-[✅] Syntax OK → src/validator/gold_sentinel.sh
 [✅] Syntax OK → src/validator/gold_autoheal.sh
 [✅] Syntax OK → src/validator/gold_validator.sh
+[✅] Syntax OK → src/validator/gold_manifest.sh
+[✅] Syntax OK → src/validator/gold_sentinel.sh
+[✅] Syntax OK → src/validator/gold_audit.sh
 [✅] Syntax OK → src/loader/pour_loader.sh
 [✅] Syntax OK → src/loader/gold_autorun.sh
+[✅] Syntax OK → src/mesh/gold_mesh_remote.sh
+[✅] Syntax OK → src/mesh/gold_mesh_sync.sh
 --------------------------------------------------------------
 [OK] Gold Audit PASSED – All checks verified.
-[GIT] Preparing commit...
-[main afb50fa] sentinel: 2025-10-19 status ✅ PASS
- 4 files changed, 57 insertions(+)
- create mode 100644 logs/gold_audit_20251019_201134.log
- create mode 100644 logs/sentinel_20251019_201134.log
- create mode 100644 logs/sentinel_report_20251019_201134.md
-[GIT] Commit recorded.
-[GIT] Attempting push to origin/main...
-To https://github.com/BraintechRoboticsOrg/tie-breaker.git
-   0ca8e6e..afb50fa  main -> main
-[GIT] Push successful ✅
-[INFO] Gold Sentinel completed → ✅ PASS
---------------------------------------------------------------
+[REMOTE] Audit PASS
+[REMOTE] Manifest → manifest_remote_20251020_011019.txt

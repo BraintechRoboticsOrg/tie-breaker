@@ -1,0 +1,65 @@
+--------------------------------------------------------------
+[MESH] Gold Mesh Sync start @ Sun 19 Oct 2025 09:10:18 PM EDT
+Local:  /home/pmonize/AIQ_POURS/tie-breaker
+Remote: pmonize@motherbox:/home/pmonize/tie-breaker
+--------------------------------------------------------------
+[STEP] Sync up to server via rsync
+sending incremental file list
+created directory /home/pmonize/tie-breaker
+./
+Makefile
+docs/
+docs/charters/
+docs/charters/TIE_BREAKER_GOLD_PROTOCOL.md
+docs/diagrams/
+docs/specs/
+docs/specs/system_design_overview.md
+src/
+src/aiq_bridge/
+src/aiq_bridge/sync_bridge.py
+src/loader/
+src/loader/gold_autorun.sh
+src/loader/pour_loader.sh
+src/mesh/
+src/mesh/gold_mesh_remote.sh
+src/mesh/gold_mesh_sync.sh
+src/metrics/
+src/metrics/grafana_exporter.py
+src/telemetry/
+src/telemetry/heartbeat_collector.py
+src/validator/
+src/validator/gold_audit.sh
+src/validator/gold_autoheal.sh
+src/validator/gold_manifest.sh
+src/validator/gold_selfpatch.sh
+src/validator/gold_sentinel.sh
+src/validator/gold_validator.sh
+tests/
+tests/test_local_pour.sh
+tests/test_server_pour.sh
+
+sent 8,894 bytes  received 461 bytes  18,710.00 bytes/sec
+total size is 18,204  speedup is 1.95
+[STEP] Install/refresh remote executor
+[STEP] Trigger remote audit/autoheal + manifest
+[REMOTE] Manifest path: --------------------------------------------------------------
+[REMOTE] Gold Mesh Remote start @ Mon Oct 20 01:10:19 AM UTC 2025
+Base: /home/pmonize/tie-breaker
+--------------------------------------------------------------
+[REMOTE] Audit PASS
+[REMOTE] Manifest → manifest_remote_20251020_011019.txt
+/home/pmonize/tie-breaker/logs/manifest_remote_20251020_011019.txt
+[STEP] Pull back remote logs/manifest
+receiving incremental file list
+./
+gold_audit_20251020_011019.log
+manifest_remote_20251020_011019.txt
+mesh_remote_20251020_011019.log
+
+sent 84 bytes  received 2,034 bytes  4,236.00 bytes/sec
+total size is 4,488  speedup is 2.12
+[STEP] Generate local manifest
+/home/pmonize/AIQ_POURS/tie-breaker/logs/manifest_local_20251019_211018.txt
+[LOCAL] Manifest path: /home/pmonize/AIQ_POURS/tie-breaker/logs/manifest_local_20251019_211018.txt
+[STEP] Diff manifests
+[MESH] Manifests identical ✅
