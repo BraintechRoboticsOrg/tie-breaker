@@ -1,13 +1,4 @@
 --------------------------------------------------------------
-[INFO] Gold Sentinel Launch @ Sun 19 Oct 2025 08:07:53 PM EDT
-Target: /home/pmonize/AIQ_POURS/tie-breaker
---------------------------------------------------------------
---------------------------------------------------------------
-[INFO] Running Gold Audit
-Target: /home/pmonize/AIQ_POURS/tie-breaker
-Timestamp: 2025-10-19 20:07:53
-Log: /home/pmonize/AIQ_POURS/tie-breaker/logs/gold_audit_20251019_200753.log
---------------------------------------------------------------
 [✅] Found: docs
 [✅] Found: src
 [✅] Found: tests
@@ -28,5 +19,3 @@ Log: /home/pmonize/AIQ_POURS/tie-breaker/logs/gold_audit_20251019_200753.log
 [✅] Syntax OK → src/loader/gold_autorun.sh
 --------------------------------------------------------------
 [OK] Gold Audit PASSED – All checks verified.
-[INFO] Gold Sentinel completed → ✅ PASS
---------------------------------------------------------------
