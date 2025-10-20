@@ -1,0 +1,4 @@
+START=2025-10-19 23:17:37
+ZIP=pour-001.zip HASH=d8a041fe9ad8c3a4167ae4cef0fcc4e5
+EXEC=/home/pmonize/AIQ_POURS/tie-breaker/workspace/pour-d8a041fe-1hNA/pour_001/pour.sh
+[TEST POUR] Hello from pour.sh @ Sun 19 Oct 2025 11:17:37 PM EDT

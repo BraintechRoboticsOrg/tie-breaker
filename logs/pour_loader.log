@@ -1,0 +1,14 @@
+[2025-10-19 23:17:37] ================ Tie-Breaker Gold Pour Loader ================
+[2025-10-19 23:17:37] ZIP_DIR=/home/pmonize/AIQ_POURS/zippour
+[2025-10-19 23:17:37] → Pouring: pour-001.zip
+[2025-10-19 23:17:37]    Hash:   d8a041fe9ad8c3a4167ae4cef0fcc4e5
+[2025-10-19 23:17:37] === EXECUTING: /home/pmonize/AIQ_POURS/tie-breaker/workspace/pour-d8a041fe-1hNA/pour_001/pour.sh ===
+[2025-10-19 23:17:37] END rc=0
+[2025-10-19 23:17:37] ✅ Success: pour-001.zip → archived
+[2025-10-19 23:17:37] 🏁 All pours completed successfully.
+[2025-10-19 23:20:15] ================ Tie-Breaker Gold Pour Loader ================
+[2025-10-19 23:20:15] ZIP_DIR=/home/pmonize/AIQ_POURS/zippour
+[2025-10-19 23:20:15] ℹ️  No zips found in /home/pmonize/AIQ_POURS/zippour
+[2025-10-19 23:20:33] ================ Tie-Breaker Gold Pour Loader ================
+[2025-10-19 23:20:33] ZIP_DIR=/home/pmonize/AIQ_POURS/zippour
+[2025-10-19 23:20:33] ℹ️  No zips found in /home/pmonize/AIQ_POURS/zippour
